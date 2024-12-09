@@ -1,0 +1,16 @@
+which one is best??
+=>
+Easy way to get this, is to assume any value for 'N'
+Then compare.
+The smaller one is the best!!!!
+
+
+if N = 1000
+
+
+Constant        : O(1)          -> 1
+Linear          : O(N)          -> 1000
+Logarithmic     : O(logN)       -> 10
+Square Root     : O(sqrtN)      -> 32
+Quadratic       : O(N^2)        -> 1000000
+Linearithmic    : O(NlogN)      -> 1000
