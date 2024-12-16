@@ -23,7 +23,7 @@ public:
 
 int main()
 {
-    Node *head = new Node(10);                      // creating dynamic nodes
+    Node *head = new Node(10);                      // creating dynamic nodes manually
     Node *a = new Node(20);
     Node *b = new Node(30);
     Node *c = new Node(40);
