@@ -1,5 +1,4 @@
 // loop
-
 // manual print
 
 
@@ -36,7 +35,7 @@ int main()
 
     while (head!=NULL)
     {
-        cout << head->val << endl;                      // printing
+        cout << head->val << endl;                      // printing in loop but not optiomised bcz we are moving head
         head = head->next;
     }
     

@@ -7,19 +7,19 @@ using namespace std;
 class Node
 {
 public:
-    int val;    // value
-    Node *next; // storing the  address of next 'node'; same as the class name
+    int val;                                // value
+    Node *next;                             // storing the  address of next 'node'; same as the class name
 };
 
 int main()
 {
     Node a, b, c;
 
-    a.val = 10; // setting all value
+    a.val = 10;                             // setting all value
     b.val = 20;
     c.val = 30;
 
-    a.next = &b; // setting all address
+    a.next = &b;                            // setting all address
     b.next = &c;
     c.next = NULL;
 

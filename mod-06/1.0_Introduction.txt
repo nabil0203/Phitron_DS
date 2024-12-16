@@ -1,0 +1,8 @@
+Insetion
+    -at head
+    -at tail
+    -at any position
+
+Printing
+    -forward
+    -backward

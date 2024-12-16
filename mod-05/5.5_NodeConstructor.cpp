@@ -7,7 +7,7 @@ public:
     int val;
     Node *next;
 
-    Node(int val)                                // construtor
+    Node(int val)                                // construtor; used custom Snipped "node"
     {
         this->val = val;
         this->next = NULL;

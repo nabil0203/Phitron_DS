@@ -30,7 +30,7 @@ int main()
 
 
 
-    cout << head->val << endl;                      // printing
+    cout << head->val << endl;                                  // printing manually
     cout << head->next->val << endl;
     cout << head->next->next->val << endl;
     cout << head->next->next->next->val << endl;
