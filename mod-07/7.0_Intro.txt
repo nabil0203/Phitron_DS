@@ -1,0 +1,12 @@
+Linked List
+
+
+Deletion:
+    -at Head
+    -at Tail
+    -at Any position
+
+
+Sorting:
+    -Ascending
+    -Descending
