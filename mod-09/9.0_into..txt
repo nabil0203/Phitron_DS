@@ -1,0 +1,23 @@
+Doubly Linked List
+
+
+
+Insetion
+    -at head
+    -at tail
+    -at any position
+
+
+Deletion:
+    -at Head
+    -at Tail
+    -at Any position
+
+Printing
+    -forward
+    -backward
+
+
+Sorting:
+    -Ascending
+    -Descending
