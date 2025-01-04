@@ -36,7 +36,7 @@ int main()
     Node *fast = head;
     int flag = 0;
 
-    while (fast != NULL  && fast->next !=NULL)
+    while (fast != NULL  && fast->next !=NULL)                      // even && not even
     {
         slow = slow->next;                                  // increment 1 node each time
         fast = fast->next->next;                            // increment 2 node each time
