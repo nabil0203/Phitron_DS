@@ -47,6 +47,14 @@ int main()
     }
     
 
+    while (!a.empty())                              // untill the stack is empty
+    {
+        cout << a.top() << " ";                     // printing
+
+        a.pop();                                    // poping
+    }
+    
+
     
     return 0;
 }
