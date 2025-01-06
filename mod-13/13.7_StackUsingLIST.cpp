@@ -4,7 +4,7 @@ using namespace std;
 class myStack
 {
 public:
-    list<int> l;                            // just took a list, others are same
+    list<int> l;                                    // just took a list, others are same
 
     void push(int val)
     {
