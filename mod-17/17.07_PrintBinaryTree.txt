@@ -1,0 +1,23 @@
+                                           |---Level Order
+                                           |
+            |----------Level wise----------|
+            |
+            |
+            |
+Order-------|
+            |
+            |                               
+            |                               |------Pre-order
+            |                               |
+            |----------Depth wise-----------|
+                                            |
+                                            |-------In-order
+                                            |
+                                            |
+                                            |
+                                            |-------Post-order
+
+
+
+
+This this Order of printing in Tree

@@ -1,0 +1,21 @@
+Data Structure
+    │
+    ├──------- Linear Data Structure
+    │                       ├── Array
+    │                       ├── Stack
+    │                       ├── Queue
+    │                       └── Linked-list
+    │
+    │
+    └──------- Non-linear Data Structure
+                            ├── Graphs
+                            └── Trees
+
+
+
+
+
+--> Tree is Hierarchical data structure
+--> No STL available
+--> Need to use Recursion
+--> Can't go Oppsite way
