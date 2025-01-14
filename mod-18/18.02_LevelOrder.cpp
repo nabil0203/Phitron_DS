@@ -20,7 +20,8 @@ void level_order(Node *root)
 {
     queue<Node *> q;                                     // 'Node' type queue; Bcz we are pushing the whole node into the queue; We need full node for access the child (left/right)
 
-    q.push(root);                                                 // pushing the root
+    if(root!=NULL)
+        q.push(root);                                                 // pushing the root
 
     while (!q.empty())
     {
