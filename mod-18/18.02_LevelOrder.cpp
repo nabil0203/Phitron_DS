@@ -24,9 +24,9 @@ void level_order(Node *root)
         q.push(root);                                                 // pushing the root
 
     while (!q.empty())
-    {
-        Node *f = q.front();                                          // step (i) -- taking out the value
-        q.pop();
+    {                                                                  // step (i)
+        Node *f = q.front();                                           // taking a Node(f) to Store front value
+        q.pop();                                                      // poping the value from the queue
 
 
 
