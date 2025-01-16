@@ -36,12 +36,12 @@ int main()
 
 
 
-    Node *temp = head;                                          //putting head into temp
+    Node *temp = head;                                          //cpoing head into temp Node
 
     while (temp!=NULL)                                          // printing
     {
         cout << temp->val << endl;
-        temp = temp->next;                                     // moving pointer each time
+        temp = temp->next;                                     // moving temp each time; here, head node is not moving
     }
     
 
