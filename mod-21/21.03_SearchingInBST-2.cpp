@@ -77,7 +77,7 @@ Node *input_tree()
 
 
 
-bool search(Node *root, int val)                                                // code shorted
+bool search(Node *root, int val)                                                // code shorted than previous
 {
     if (root == NULL)
         return false;
@@ -95,7 +95,7 @@ bool search(Node *root, int val)                                                
 
 
 
-int main()                                                                  //  code shorted
+int main()                                                                  //  code shorted than previous
 {
     Node *root = input_tree();
 
