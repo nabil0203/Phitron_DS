@@ -39,10 +39,10 @@ Node *input_tree()
 
     while (!q.empty())
     {
-        Node *p = q.front(); // step(i)
+        Node *p = q.front();                            // step(i)
         q.pop();
 
-        int l, r; // step(ii)
+        int l, r;                                       // step(ii)
         cin >> l >> r;
 
         Node *myLeft, *myRight;
@@ -60,7 +60,7 @@ Node *input_tree()
         p->left = myLeft;
         p->right = myRight;
 
-        if (p->left != NULL) // step(iii)
+        if (p->left != NULL)                            // step(iii)
         {
             q.push(p->left);
         }
@@ -77,7 +77,7 @@ Node *input_tree()
 
 
 
-bool search(Node *root, int val)                                                // code shorted than previous
+bool search(Node *root, int val)                                                // short code
 {
     if (root == NULL)
         return false;
@@ -95,7 +95,7 @@ bool search(Node *root, int val)                                                
 
 
 
-int main()                                                                  //  code shorted than previous
+int main()                                                                  //  short code
 {
     Node *root = input_tree();
 
@@ -118,14 +118,13 @@ int main()                                                                  //  
 
 
 /*
-input:
+
+ input:
  18 7 21 -1 12 20 26 9 15 -1 -1 -1 -1 -1 -1 -1 -1
  15
 
  output:
  Found
-
-
 
 
 
