@@ -39,10 +39,10 @@ Node *input_tree()
 
     while (!q.empty())
     {
-        Node *p = q.front(); // step(i)
+        Node *p = q.front();                                    // step(i)
         q.pop();
 
-        int l, r; // step(ii)
+        int l, r;                                               // step(ii)
         cin >> l >> r;
 
         Node *myLeft, *myRight;
@@ -60,7 +60,7 @@ Node *input_tree()
         p->left = myLeft;
         p->right = myRight;
 
-        if (p->left != NULL) // step(iii)
+        if (p->left != NULL)                                            // step(iii)
         {
             q.push(p->left);
         }
