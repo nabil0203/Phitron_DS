@@ -20,7 +20,7 @@ class Student
 
 
 
-class cmp
+class cmp                                                    // custom compare class
 {
     public:
     bool operator()(Student l, Student r)                       // 'operator()()' - is a syntax; this can not be changed
