@@ -1,15 +1,15 @@
                                            |---Level Order
                                            |
-            |----------Level wise----------|
-            |
-            |
-            |
-Order-------|
-            |
-            |                               
-            |                               |------Pre-order
-            |                               |
-            |----------Depth wise-----------|
+              |--------Level wise----------|
+              |
+              |
+Traversal     |
+  Order  -----|
+              |
+              |                               
+              |                              ------Pre-order
+              |                             |
+              |--------Depth wise-----------|
                                             |
                                             |-------In-order
                                             |
