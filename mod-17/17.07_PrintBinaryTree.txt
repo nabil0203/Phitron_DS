@@ -7,7 +7,7 @@ Traversal     |
   Order  -----|
               |
               |                               
-              |                              ------Pre-order
+              |                             |------Pre-order
               |                             |
               |--------Depth wise-----------|
                                             |
