@@ -118,9 +118,9 @@ Node *input_tree()
 
 int main()
 {
-    Node *root = input_tree(); // input
+    Node *root = input_tree();             // input
 
-    level_order(root); // output in level order; we can use any order
+    level_order(root);                     // output in level order; we can use any order
 
     return 0;
 }
